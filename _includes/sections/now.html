@@ -1,0 +1,7 @@
+<section class="section">
+  <h2 class="section-title"><span>04.</span><span>Now</span></h2>
+  <div class="section-content">
+    {% capture now %}{% include content/now.markdown %}{% endcapture %}
+    {{ now | markdownify }}
+  </div>
+</section>

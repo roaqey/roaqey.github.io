@@ -1,0 +1,18 @@
+/* ==========================================================================
+   UTILITIES/VARIABLES
+   ========================================================================== */
+
+// Fonts
+$f-sans-serif: 'Roboto', sans-serif;
+$f-code: monospace;
+
+// Colors
+$c-text-color: blue;
+$c-brand-color: #65B702;
+
+// Breakpoints
+$breakpoints: (
+  'sm': (min-width: 320px),
+  'md': (min-width: 768px),
+  'lg': (min-width: 1024px),
+) !default;

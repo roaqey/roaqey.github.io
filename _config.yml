@@ -1,0 +1,14 @@
+# Site settings
+title: Roaqey Post
+baseurl: ""
+url: "http://roaqey.github.io"
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
+port: 8000

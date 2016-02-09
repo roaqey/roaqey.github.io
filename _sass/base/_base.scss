@@ -1,0 +1,33 @@
+/* ==========================================================================
+   BASE/BASE
+   ========================================================================== */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 100px 20px;
+  // background: #e57928;
+  background: #0177FA;
+  font-family: $f-sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: color ease-in-out 0.2s;
+  transition: color ease-in-out 0.2s;
+
+  @include on-event {
+    color: rgba(#fff, .5);
+  }
+}

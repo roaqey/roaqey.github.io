@@ -1,0 +1,27 @@
+/* ==========================================================================
+   LAYOUT/SECTION
+   ========================================================================== */
+
+.section {
+  margin-bottom: 100px;
+}
+
+.section-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 3px solid rgba(255,255,255,0.5);
+}
+
+.section-content {
+
+  a {
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+  }
+}
